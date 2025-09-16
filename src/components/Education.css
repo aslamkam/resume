@@ -1,29 +1,38 @@
 .education-container {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
   width: 100%;
-  max-width: 800px;
-}
-
-.education-list, .certifications-list {
-  width: 45%;
+  max-width: 1200px;
   text-align: left;
 }
 
-.education-item, .certification-item {
-  background-color: #2c2c2c;
-  padding: 1.5rem;
+.education-list h3, .certifications-list h3 {
+  font-size: 1.8rem;
+  color: #333;
   margin-bottom: 1.5rem;
-  border-radius: 8px;
+}
+
+.education-item, .certification-item {
+  margin-bottom: 1.5rem;
 }
 
 .education-item h4, .certification-item h4 {
   font-size: 1.2rem;
-  color: #61dafb;
-  margin-bottom: 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.25rem;
 }
 
 .education-item p, .certification-item p {
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
-  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    grid-template-columns: 1fr;
+  }
 }

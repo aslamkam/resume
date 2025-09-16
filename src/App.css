@@ -1,17 +1,16 @@
 .App {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-  scroll-behavior: smooth;
+  /* The scroll-snap properties have been removed. */
+  text-align: center;
 }
 
 .section {
-  scroll-snap-align: start;
-  height: 100vh;
+  /* height: 100vh has been removed to allow variable height sections. */
+  /* scroll-snap-align has been removed. */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
+  padding: 6rem 2rem; /* Increased padding for more white space */
   box-sizing: border-box;
+  width: 100%;
 }

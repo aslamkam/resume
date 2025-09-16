@@ -8,12 +8,14 @@ import Research from './components/Research';
 function App() {
   return (
     <div className="App">
-      <Section title="Kamal Aslam">
-        <p style={{ maxWidth: '800px', textAlign: 'center', lineHeight: '1.6' }}>
-          6+ years of experience in software development and system engineering, with expertise in algorithm design and optimization. Currently pursuing a Master's in Mathematics with a focus on Artificial Intelligence (AI). Skilled in machine learning, statistical modeling, and data analysis for complex, real-world datasets. Proficient in Python, C++, Java, and cloud technologies (Azure). Experienced in developing scalable systems and automating processes to improve efficiency. Strong background in mathematics (probability, optimization, linear algebra) applied to AI and machine learning challenges.
-        </p>
+      <Section title="Kamal Aslam" className="hero">
+        <div className="hero-intro">
+          <p className="hero-subtitle">Hello :)</p>
+          <h1 className="hero-title">I'm a Software Developer with a passion for creating memorable digital experiences.</h1>
+          <a href="#experience" className="hero-button">See my work</a>
+        </div>
       </Section>
-      <Section title="Professional Experience">
+      <Section title="Professional Experience" id="experience">
         <Experience />
       </Section>
       <Section title="Education">
