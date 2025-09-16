@@ -11,7 +11,7 @@ function App() {
       <Section title="Kamal Aslam" className="hero">
         <div className="hero-intro">
           <p className="hero-subtitle">Hello :)</p>
-          <h1 className="hero-title">I'm a Software Developer with a passion for creating memorable digital experiences.</h1>
+          <h1 className="hero-title">I'm a Software Developer with a passion for creating AI tools.</h1>
           <a href="#experience" className="hero-button">See my work</a>
         </div>
       </Section>
