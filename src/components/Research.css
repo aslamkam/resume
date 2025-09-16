@@ -1,0 +1,26 @@
+.research-container {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  background-color: #2c2c2c;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.research-container h3 {
+  font-size: 1.8rem;
+  color: #61dafb;
+  margin-bottom: 1rem;
+}
+
+.research-container h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+  color: #a0a0a0;
+}
+
+.research-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
